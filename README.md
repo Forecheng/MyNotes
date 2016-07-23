@@ -23,7 +23,7 @@
 
 ***
 `System.out.println("I love android.")`
-```
+```Java
 public class Test{
  public static void main(String[] args){
    System.out.println("I love android.It is great OS for Mobile");
