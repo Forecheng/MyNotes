@@ -40,7 +40,7 @@ Test1
 Test2
 : Test2_1
 : Test2_2
- > part of Test2_2
+> part of Test2_2
 > **Note:** You can find more information:
 > - about **Test1** hignlighting [here][1].
 > - about **Test2** highlighting [here][2].
@@ -52,16 +52,16 @@ you can create footnotes like this[^footnote].
 ##UML图
 * 渲染序列图
 ```sequence
-兔子->乌龟：龟龟，你咋跑的这么慢啊？
-Note right of 乌龟：乌龟说：
-乌龟-->兔子：兔兔，别嘚瑟，早晚超过你。
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
 ```
 * 流程图
 ```flow
-st=>start：开始
-e=>end：结束
-op=>operation：操作
-cond=>condition：确认？
+st=>start: Start
+e=>end
+op=>operation: My Operation
+cond=>condition: Yes or No?
 
 st->op->cond
 cond(yes)->e
