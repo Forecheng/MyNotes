@@ -18,8 +18,8 @@
   * Test3_3
 ***
 [My Blog](http://www.bing.com "单击进入bing搜索,哈哈")
->第一行引用
->第二行引用
+> 第一行引用
+> 第二行引用
 
 ***
 `System.out.println("I love android.")`
@@ -48,5 +48,24 @@ Test2
 ##About footnotes
 you can create footnotes like this[^footnote].
 [^footnote]:Here is the *text* of the **footnote**.
+***
+##UML图
+* 渲染序列图
+```sequence
+兔子->乌龟：龟龟，你咋跑的这么慢啊？
+Note right of 乌龟：乌龟说：
+乌龟-->兔子：兔兔，别嘚瑟，早晚超过你。
+```
+* 流程图
+```flow
+st=>start：开始
+e=>end：结束
+op=>operation：操作
+cond=>condition：确认？
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
 
 
