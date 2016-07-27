@@ -49,6 +49,8 @@ Test2
 you can create footnotes like this[^footnote].
 [^footnote]:Here is the *text* of the **footnote**.
 ***
+##截图
+![My Pic](https://pic1.zhimg.com/e8a76d91f7182b1b40ce639a3cb7e88c_l.jpg)
 ##UML图
 * 渲染序列图
 ```sequence
