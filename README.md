@@ -82,6 +82,6 @@ cond(no)->op
 >>>第二小节
 
 ##About me
-* [About me](http://www.aboutme.com/lpctjut)
+* ![[About me]](https://about.me/lpctjut) [About me]:(https://pic1.zhimg.com/e8a76d91f7182b1b40ce639a3cb7e88c_l.jpg "单击打开link")
 
 
