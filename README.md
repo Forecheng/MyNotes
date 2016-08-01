@@ -1,10 +1,9 @@
 # This is a Test---->H1
 ## This is a Test---->H2
-
 **粗体的Test**<br>
 *斜体的Test*<br>
 ~~在Test上添加删除线~~<br>
-<br>
+
 * Test1
  * Test1_1
   * Test1_1_1
@@ -16,9 +15,11 @@
   * Test3_1
   * Test3_2
   * Test3_3
-***
+
 [My Blog](http://www.bing.com "单击进入bing搜索,哈哈")
+
 > 第一行引用
+
 > 第二行引用
 
 ***
@@ -36,13 +37,16 @@ public class Test{
 add(a,b)|整型or浮点型|两数相加
 sub(a.b)|整型or浮点型|两数相减
 ***
-Test1
-Test2
-: Test2_1
-: Test2_2
+ Test1
+ Test2
+  Test2_1
+  Test2_2
 > part of Test2_2
+
 > **Note:** You can find more information:
+
 > - about **Test1** hignlighting [here][1].
+
 > - about **Test2** highlighting [here][2].
 
 ##About footnotes
