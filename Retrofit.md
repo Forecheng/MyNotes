@@ -23,7 +23,7 @@ Retrofit github地址：[https://github.com/square/retrofit][3]
 ### 2.0.1 创建Retrofit对象
 在项目中使用需要在模块下面的`build.gradle`中添加如下依赖：
 
-> compile 'com.squareup.retrofit2:retrofit:2.1.0'
+> compile 'com.squareup.retrofit2:retrofit:2.1.0'<br>
 > compile 'com.squareup.retrofit2:converter-gson:2.1.0'
 
 如果需要使用RxJava，也需要添加相应的依赖：
@@ -215,3 +215,8 @@ Retrofit提供的`CallAdapter`：
   [1]: http://stormzhang.com/opensource/2016/08/05/android-open-source-project-recommend2/
   [2]: http://square.github.io/retrofit/
   [3]: https://github.com/square/retrofit
+  
+***我们虽平凡，***<br>
+***但不平庸，***<br>
+***做一个能不停告诉自己前进的人！***<br>
+***一步一个脚印！***
