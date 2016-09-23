@@ -1,13 +1,10 @@
----
-title: 图片加载神器 -- Glide
-tags: 图片加载,Glide,框架
-grammar_cjkRuby: true
----
+## 图片加载神器 -- Glide ##
+
 最近的项目需要加载图片，小白就上网寻找这方面的资料，项目的架构为`MVP+Retrofit`,看了比较多的资料，于是决定使用Glide,用了才知道该库很牛。稍微归纳一下，整理学习。
 
 图片加载一直是一个比较棘手的事情，俗话说就是`“坑”`比较多，于是就google了一下这方面的库，有很多图片库，例如Picasso, Universal-Image-Loader,Fresco,Glide等，这些库都是很火的，使用量很大的图片库， 他们各有优点，不能评说那一个不好，根据项目的需求适当选择。
 
-### 几个库的简单比较
+### 1. 几个库的简单比较
 
  - Picasso：是Square出品的图片库，当然是很厉害的，该公司还有响当当的`Okhttp`和`Retrofit`，都是很牛逼的网络请求库,搭配使用效果可能更好一些，之所以这么说是因为Picasso可以将网络请求到的数据缓存交给Okhttp来处理。
  - Universal-Image-Loader：一个强大的图片加载库，包含的配置比较多，使用很广泛，很老牌。
@@ -19,7 +16,7 @@ grammar_cjkRuby: true
 
 现在整理一下`Glide`的使用：
 
-### 配置Glide
+### 2. 配置Glide
 在Module根目录下的build.gradle中进行库依赖：
 
 ``` java
@@ -30,7 +27,7 @@ dependencies {
 }
 ```
 然后同步一下代码build successful,就可以使用Glide了。
-### 使用Glide
+### 3. 使用Glide
 
 ``` java
 //图片的url
@@ -86,9 +83,9 @@ Glide.with(context)
 ```
 当然，也可以给Glide设置监听，当图片加载失败时，可以知道为什么加载失败了。
 
-***我们虽平凡，
-但不平庸，
-做一个能不停告诉自己前进的人，
+***我们虽平凡，<br>
+但不平庸，<br>
+做一个能不停告诉自己前进的人，<br>
 一步一个脚印向前！***
 
 
