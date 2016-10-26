@@ -1,12 +1,8 @@
----
-title: Retrofit+OkHttp缓存数据
-tags:
-  - Retrofit
-  - Cache
-toc: true
-date: 2016-10-12 21:21:43
-categories: 学习总结
----
+
+#Retrofit+OkHttp缓存数据#
+###date: 2016-10-12 21:21:43###
+###categories: 学习总结###
+***
 `Retrofit`本身并不能缓存，从版本2.0开始默认支持缓存，底层的网络连接都依赖于`Okhttp` ，因此数据缓存也需要在`Okhttp`上处理。`Okhttp`的版本不同，其缓存方式也不同。
 <!--more-->
 ### 1. 为什么使用缓存？
