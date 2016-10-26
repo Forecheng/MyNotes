@@ -1,20 +1,17 @@
----
-title: 使用Retrofit进行图片的上传
-tags:
-  - Android
-  - Retrofit
-toc: true
+
+## 使用Retrofit进行图片的上传 ##
 date: 2016-10-18 22:31:37
+
 categories: 学习总结
----
+
 **目标**：使用Retrofit将本地图片上传至服务器指定的文件夹中。
 **服务端接口**：入参，使用表单的形式。
 <!--more-->
 
-|表单字段名|类型|说明|
-|--|--|--|
-|“file”|File|上传图片的File对象|
-|“filename”|String|上传图片的文件名称|
+表单字段名|类型|说明
+-----|-----|------
+“file”|File|上传图片的File对象
+“filename”|String|上传图片的文件名称
 
 请求地址：http://208.208.91.150:8080/VIID-V5/image/updateimage
 
